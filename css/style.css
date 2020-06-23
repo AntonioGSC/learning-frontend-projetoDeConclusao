@@ -134,3 +134,47 @@
     font-weight: bold ;
     margin-bottom: 10px;
 }
+
+.form{
+    margin: 32px 24px 0;
+}
+
+.form .form-title{
+    font-size: 2em;
+    color: #EF7247;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.form .field {
+    margin-bottom: 16px;
+}
+
+.form .field label{
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.form .field-input{
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1.2em;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #48A3A6;
+}
+
+.form .send-form{
+    color: white;
+    font-size: 18px;
+    background-color: #48A3A6;
+    padding: 24px 56px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.form .button-place{
+    text-align: center;
+}
