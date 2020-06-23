@@ -1,0 +1,87 @@
+.header{
+    background: url(../img/destaque.jpeg) no-repeat;
+    background-size: cover;
+    padding-top: 32px;
+    text-align: center;
+}
+
+.nav-bar{
+    text-align: center;
+}
+
+.nav-bar .menu-item{
+    display: inline-block;
+    margin: 0 2px 32px 0;
+
+}
+
+.nav-bar .menu-item a{
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-transform: uppercase;
+    transition: background-color 0.5s;
+}
+
+.nav-bar .menu-item a:hover{
+    background-color: #48A3A6;
+}
+
+.header .main-header{
+    text-transform: uppercase;
+    padding: 0 0 44px 0;
+}
+
+.header .panel-main{
+    color: white;
+    text-shadow: 4px 4px 10px black;
+}
+
+.header .title-alura{
+    font-size: 3em;
+    margin-bottom: 8px;
+}
+
+.header .title-data{
+    font-size: 2.6em;
+    color: #64FF64;
+    margin-bottom: 28px;
+}
+
+.header .subscribe-anchor{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #48A3A6;
+    padding: 24px 56px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+@media (min-width: 650px){
+    .header .main-header {
+        font-size: 28px;
+    }
+}
+
+.panel-about{
+    margin: 24px;
+    text-align: center;
+}
+
+.panel-about .content-title{
+    font-size: 2.4em;
+}
+
+.panel-about .date-title{
+    font-size: 1.4em;
+    margin: 1em 0;
+}
+
+.panel-about p{
+    font-size: 1.1em;
+    line-height: 2em;
+}
